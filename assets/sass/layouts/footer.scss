@@ -1,0 +1,157 @@
+.footer {
+    background-color: #F5F4F2;
+    border: 1px solid $color-black-6;
+
+    &_content {
+        gap: 40px;
+        padding-top: 80px;
+        padding-bottom: 40px;
+
+        &-detail {
+            gap: 24px;
+
+            .footer-info {
+
+                @include max-width-992{
+                    display: grid !important;
+                    width: 100%;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: start;
+                }
+                .contact {
+                    gap: 24px;
+
+                    h6 {
+                        color: $color-black-12;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 120%;
+                        font-family: $font-EB !important;
+                        position: relative;
+
+                        &:after {
+                            content: " ";
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            display: block;
+                            width: 63px;
+                            height: 2px;
+                            background-color: $color-black-12;
+                        }
+                    }
+
+                    span {
+                        margin: 0;
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        color: $color-black-10;
+                    }
+
+                }
+
+                .support {
+                    gap: 24px;
+
+                    h6 {
+                        color: $color-black-12;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 120%;
+                        font-family: $font-EB !important;
+                        position: relative;
+
+                        &:after {
+                            content: " ";
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            display: block;
+                            width: 60px;
+                            height: 2px;
+                            background-color: $color-black-12;
+                        }
+                    }
+
+                    a {
+                        margin: 0;
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        color: $color-black-10;
+                    }
+                }
+
+                .about-us {
+                    gap: 24px;
+
+                    h6 {
+                        color: $color-black-12;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 120%;
+                        font-family: $font-EB !important;
+                        position: relative;
+
+                        &:after {
+                            content: " ";
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            display: block;
+                            width: 109px;
+                            height: 2px;
+                            background-color: $color-black-12;
+                        }
+                    }
+
+                    a {
+                        margin: 0;
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        color: $color-black-10;
+                    }
+                }
+
+                .connect {
+                    gap: 24px;
+
+                    h6 {
+                        color: $color-black-12;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 120%;
+                        font-family: $font-EB !important;
+                        position: relative;
+
+                        &:after {
+                            content: " ";
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            display: block;
+                            width: 151px;
+                            height: 2px;
+                            background-color: $color-black-12;
+                        }
+                    }
+
+                    &_social {
+                        gap: 8px;
+                    }
+                }
+            }
+
+        }
+
+        .copy-right {
+            border-top: 1px solid $color-black-6;
+            color: $color-black-12;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.collection {
+    background-color: #F5F4F2;
+    padding: 128px 0;
+    @include max-width-375{
+        padding: 40px 0;
+    }
+    &_title {
+        h3 {
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 120%;
+            font-family: $font-EB !important;
+            @include max-width-375{
+                font-size: 30px;
+            }
+        }
+
+    }
+
+    &_top {
+        margin: 48px 0;
+        .imgModel{
+            
+            @include max-width-1440 {
+                width: 100%;
+            }
+        }
+        &-detail {
+            @include max-width-992 {
+                margin: 0;
+            }
+            .product_gold {
+                gap: 12px;
+                .sale{
+                    padding: 8px;
+                    top: 8px;
+                    right: 8px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FCFCFC;
+                    background-color: $color-black-10;
+                }
+                .name{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: $color-black-12;
+                    @include webkit-box(1);
+                }
+                .price_sale{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    color: $color-black-8;  
+                }
+                .price{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: $color-black-12;
+                }
+            }
+        }
+    }
+
+    &_list {
+        &-detail {
+            gap: 12px;
+            margin-bottom: 48px;
+            .name{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: $color-black-12;
+                @include webkit-box(1);
+            }
+            .price{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                color: $color-black-12;
+            }
+        }
+
+    }
+    .btn-more{
+        .btn{
+            gap: 8px;
+            padding: 12px 24px;
+            border: 1px solid $color-black-12;
+            border-radius: 0;
+            color: $color-black-12;
+            &:hover{
+                cursor: pointer;
+            }
+            span {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 120%;
+                font-family: $font-EB !important;
+            }
+        }
+    }
+}
