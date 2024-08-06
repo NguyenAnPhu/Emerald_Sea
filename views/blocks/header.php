@@ -6,8 +6,8 @@
         <div class="nav col-11 d-none d-lg-flex justify-content-end align-items-center m-0">
             <ul class="menu col-9 d-flex justify-content-between gap-3 list-unstyled fw-semibold ">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center"
+                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         TRANG SỨC
                     </a>
                     <ul class="dropdown-menu">
@@ -17,8 +17,8 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center"
+                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         TRANG SỨC CƯỚI
                     </a>
                     <ul class="dropdown-menu">
@@ -30,8 +30,8 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center"
+                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         QUÀ TẶNG
                     </a>
                     <ul class="dropdown-menu">
@@ -47,7 +47,22 @@
                 </li>
             </ul>
             <div class="options d-flex col-2 align-items-center mx-0">
-                <i class="lp-search"></i>
+                <li class="nav-item_search dropdown">
+                    <a class="nav-link_search text-decoration-none d-flex justify-content-between align-items-center"
+                        href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="lp-search"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <form class="d-flex mx-2 gap-1" role="search">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn" type="submit">
+                                    <i class="lp-search"></i>
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
                 <i class="lp-personal"></i>
                 <i class="lp-cart-white"></i>
             </div>
@@ -73,8 +88,8 @@
             <div class="offcanvas-body mx-0">
                 <ul class="menu list-unstyled fw-semibold ">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-3" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-3"
+                            href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             TRANG SỨC
                         </a>
                         <ul class="dropdown-menu">
@@ -84,8 +99,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-3" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-3"
+                            href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             TRANG SỨC CƯỚI
                         </a>
                         <ul class="dropdown-menu">
@@ -97,8 +112,8 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center"
+                            href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             QUÀ TẶNG
                         </a>
                         <ul class="dropdown-menu">
@@ -107,14 +122,29 @@
                         </ul>
                     </li>
                     <li class="nav-item d-flex justify-content-between gap-2 align-items-center">
-                        <a class="nav-link">TIN TỨC</a>
+                        <a class="nav-link" href="#">TIN TỨC</a>
                     </li>
                     <li class="nav-item d-flex justify-content-between gap-2 align-items-center">
-                        <a class="nav-link">LIÊN HỆ</a>
+                        <a class="nav-link" href="#">LIÊN HỆ</a>
                     </li>
                 </ul>
                 <div class="options d-flex align-items-center mx-0">
-                    <i class="lp-search"></i>
+                    <li class="nav-item_search dropdown list-unstyled">
+                        <a class="nav-link_search text-decoration-none d-flex justify-content-between align-items-center"
+                            href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="lp-search"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <form class="d-flex mx-2 gap-1" role="search">
+                                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn" type="submit">
+                                        <i class="lp-search"></i>
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
                     <i class="lp-personal"></i>
                     <i class="lp-cart-white"></i>
                 </div>

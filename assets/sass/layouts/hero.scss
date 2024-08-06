@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    aspect-ratio: 1440/900;
     padding-bottom: 96px;
 
     .content {
@@ -96,11 +95,10 @@
                 background-color: $color-black-10;
                 color: #FFFFFF;
 
-                // transition: background-color 0.15s ease, color 0.15s ease;
+                transition: all .35s ease-in-out;
                 &:hover {
                     background-color: #FFFFFF;
                     color: $color-black-10;
-                    // transition-delay: 0.15s;
                 }
 
                 i {

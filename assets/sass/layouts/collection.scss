@@ -1,16 +1,19 @@
 .collection {
     background-color: #F5F4F2;
     padding: 128px 0;
-    @include max-width-375{
+
+    @include max-width-375 {
         padding: 40px 0;
     }
+
     &_title {
         h3 {
             font-weight: 400;
             font-size: 40px;
             line-height: 120%;
             font-family: $font-EB !important;
-            @include max-width-375{
+            padding: 0 12px;
+            @include max-width-375 {
                 font-size: 30px;
             }
         }
@@ -19,63 +22,95 @@
 
     &_top {
         margin: 48px 0;
-        .imgModel{
-            
+
+        .imgModel {
+
             @include max-width-1440 {
                 width: 100%;
             }
-        }
-        &-detail {
-            @include max-width-992 {
-                margin: 0;
-            }
-            .product_gold {
-                gap: 12px;
-                .sale{
-                    padding: 8px;
-                    top: 8px;
-                    right: 8px;
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 24px;
-                    color: #FCFCFC;
-                    background-color: $color-black-10;
-                }
-                .name{
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 150%;
-                    color: $color-black-12;
-                    @include webkit-box(1);
-                }
-                .price_sale{
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 150%;
-                    color: $color-black-8;  
-                }
-                .price{
-                    font-weight: 600;
-                    font-size: 20px;
-                    line-height: 150%;
-                    color: $color-black-12;
-                }
-            }
-        }
-    }
 
-    &_list {
-        &-detail {
+        }
+
+        .product_gold {
             gap: 12px;
-            margin-bottom: 48px;
-            .name{
+            @include max-width-992{
+                margin: 24px 0;
+            }
+            img {
+                &:hover{
+                    border: 1px solid $color-black-12;
+                }
+            }
+            .sale {
+                padding: 8px;
+                top: 8px;
+                right: 8px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FCFCFC;
+                background-color: $color-black-10;
+            }
+
+            .name {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 150%;
                 color: $color-black-12;
                 @include webkit-box(1);
+                &:hover{
+                    font-weight: 600;
+                }
             }
-            .price{
+
+            .price_sale {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                color: $color-black-8;
+            }
+
+            .price {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 150%;
+                color: $color-black-12;
+            }
+        }
+
+        &-detail {
+            @include max-width-992 {
+                margin: 0;
+            }
+
+        }
+    }
+
+    &_list {
+        padding: 0 12px;
+        &-detail {
+            gap: 12px;
+            margin-bottom: 48px;
+            img {
+                margin: 0;
+                width: 100%;
+                &:hover{
+                    border: 1px solid $color-black-12;
+                }
+            }
+            
+            .name {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: $color-black-12;
+                @include webkit-box(1);
+                &:hover{
+                    font-weight: 600;
+                }
+            }
+
+            .price {
                 font-weight: 600;
                 font-size: 20px;
                 line-height: 150%;
@@ -84,16 +119,21 @@
         }
 
     }
-    .btn-more{
-        .btn{
+
+    .btn-more {
+        .btn {
             gap: 8px;
-            padding: 12px 24px;
+            padding: 12px 24px 10px 24px;
             border: 1px solid $color-black-12;
             border-radius: 0;
             color: $color-black-12;
-            &:hover{
+
+            &:hover {
                 cursor: pointer;
+                color: #F5F4F2;
+                background-color: #000;
             }
+
             span {
                 font-weight: 600;
                 font-size: 14px;
@@ -101,5 +141,8 @@
                 font-family: $font-EB !important;
             }
         }
+    }
+    a {
+        cursor: pointer;
     }
 }

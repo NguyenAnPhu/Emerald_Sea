@@ -12,37 +12,37 @@
                     <div class="swiper-slide">
                         <div class="content_category-detail d-flex flex-column">
                             <img src="assets/images/category1.png" alt="">
-                            <span class="category_name">Nhẫn</span>
+                            <a class="category_name text-decoration-none">Nhẫn</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="content_category-detail d-flex flex-column">
                             <img src="assets/images/category2.png" alt="">
-                            <span class="category_name">Bông tai</span>
+                            <a class="category_name text-decoration-none">Bông tai</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="content_category-detail d-flex flex-column">
                             <img src="assets/images/category3.png" alt="">
-                            <span class="category_name">Dây chuyền</span>
+                            <a class="category_name text-decoration-none">Dây chuyền</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="content_category-detail d-flex flex-column">
                             <img src="assets/images/category4.png" alt="">
-                            <span class="category_name">Vòng tay</span>
+                            <a class="category_name text-decoration-none">Vòng tay</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="content_category-detail d-flex flex-column">
                             <img src="assets/images/category5.png" alt="">
-                            <span class="category_name">Trang sức cưới</span>
+                            <a class="category_name text-decoration-none">Trang sức cưới</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="content_category-detail d-flex flex-column">
                             <img src="assets/images/category6.png" alt="">
-                            <span class="category_name">Thiết kế riêng</span>
+                            <a class="category_name text-decoration-none">Thiết kế riêng</a>
                         </div>
                     </div>
                 </div>

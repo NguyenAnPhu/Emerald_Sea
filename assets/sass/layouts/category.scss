@@ -32,13 +32,26 @@
 
             &-detail{
                 gap : 24px;
-               
+                img {
+                    cursor: pointer;
+                    transition:  transform 0.15s ease-in-out 0.15s;
+                        &:hover{
+                            transform: scale(1.15);
+                        }
+                }
                 .category_name{
                     font-weight: 400;
                     font-size: 20px;
                     line-height: 150%;
+                    color: $color-black-12;
+                    &:hover{
+                        font-weight: 600;
+                    }
                 }
             }
         }
+    }
+    a {
+        cursor: pointer;
     }
 }

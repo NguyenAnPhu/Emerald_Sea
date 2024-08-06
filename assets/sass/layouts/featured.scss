@@ -18,6 +18,7 @@
             }
     
             button {
+                
                 .btn {
                     @include max-width-576{
                         align-items: center;
@@ -28,20 +29,39 @@
                         line-height: 120%;
                         font-family: $font-EB !important;
                     }
+                    &:hover{
+                        border: 1px solid $color-black-12;
+                    }
+                    
                 }
 
             }
         }
         .product{
             &-detail{
-
                 gap: 24px;
+                img {
+                    width: 100%;
+                    aspect-ratio: 282/412;
+                    object-fit: cover;
+                    transition:  transform 0.15s ease-in-out 0.15s;
+                        &:hover{
+                            // transform: scale(1.15);
+                            border: 1px solid $color-black-12;
+                        }
+                    @include max-width-992{
+                        width: auto;
+                    }
+                }
                 .name{
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 150%;
                     color: $color-black-12;
                     @include webkit-box(1);
+                    &:hover {
+                        font-weight: 600;
+                    }
                 }
                 .price{
                     font-weight: 600;
@@ -51,6 +71,11 @@
                 }
             }
         }
+        a {
+            cursor: pointer;
+
+        }
+
     }
     
 }

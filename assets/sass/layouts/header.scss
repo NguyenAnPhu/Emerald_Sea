@@ -28,6 +28,22 @@ header {
                 outline: 0;
                 box-shadow: none;
             }
+            .nav-item_search{
+                a{
+                    color: $color-black-12;
+                }
+                .dropdown-menu{
+                   .form-control {
+                        background-color: transparent;
+                        &:focus{
+                            background-color: transparent;
+                            outline: none;
+                            box-shadow: none;
+                            border: 1px solid $color-black-12;
+                        }
+                   }
+                }
+            }
             .nav-link {
                 font-weight: 600;
                 font-family: $font-EB !important;
@@ -36,6 +52,7 @@ header {
                 color: $color-black-12;
                 margin: 0;
                 &:hover{
+                    cursor: pointer;
                     text-decoration:underline;
                     background-color: transparent;
                 }
@@ -48,14 +65,18 @@ header {
                     font-size: 20px !important;
                     line-height: 30px !important;
                     color: $color-black-12;
+                    transition: all .35s ease-in-out;
                     &:hover{
-                        text-decoration:underline;
                         background-color: transparent;
                     }
+
                 }
             }
             .options {
                 font-size: 20px;
+                i {
+                    cursor: pointer;
+                }
             }
         }
         .nav {
@@ -72,16 +93,24 @@ header {
                         font-size: 14px !important;
                         line-height: 20px !important;
                         color: $color-black-12;
+                        &:hover{
+                            cursor: pointer;
+                        }
                     }
                     .dropdown-menu{
                         background-color: #F5F4F2;
                         .dropdown-item{
-                            a {
-                                font-weight: 600;
-                                font-family: $font-EB !important;
-                                font-size: 14px !important;
-                                line-height: 20px !important;
-                                color: $color-black-12;
+                            
+                          
+                            font-weight: 600;
+                            font-family: $font-EB !important;
+                            font-size: 14px !important;
+                            line-height: 20px !important;
+                            color: $color-black-12;
+                            transition: all .35s ease-in-out;
+                            &:hover{
+                                text-decoration: underline;
+                                background-color: #F5F4F2;
                             }
                         }
                     }
@@ -92,11 +121,33 @@ header {
             .options {
                 gap: 24px;
                 padding-left: 24px;
-
-               i {
-                    width: 20px;
-                    height: 20px;
+                .nav-item_search {
+                    a {
+                        margin: 0;
+                        color: $color-black-12;
+                    }
+                    .form-control {
+                        width: 160px;
+                        &:focus{
+                            background-color: transparent;
+                            border: 1px solid $color-black-12;
+                            box-shadow:none;
+                        }
+                    }
+                    .btn {
+                        background-color: $color-black-12;
+                        color: #F5F4F2;
+                        padding: 0 8px;
+                        &:hover{
+                            background-color: #F5F4F2;
+                            color: $color-black-12;
+                        }
+                    }
                 }
+                i {
+                        cursor: pointer;
+                        font-size: 20px;
+                    }
             }
         }
 

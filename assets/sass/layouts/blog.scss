@@ -22,6 +22,18 @@
             gap: 24px;
             .blog_hot{
                 gap: 24px;
+                &-img{
+                    aspect-ratio: 588/559;
+                    width: 100%;
+                    transition: transform 0.15s ease-in-out 0.15s;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                    img {
+                        height: auto;
+                    }
+                    
+                }
                 &-body{
                     gap: 12px;
                     .blog-category{
@@ -29,12 +41,22 @@
                         line-height: 150%;
                         font-weight: 400;
                         padding: 8px;
+                        color: $color-black-12;
+                        &:hover{
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
                     }
                     .name {
                         font-size: 24px;
                         line-height: 120%;
                         font-weight: 400;
                         font-family: $font-EB !important;
+                        color: $color-black-12;
+                        &:hover{
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
                     }
                     .description {
                         font-size: 16px;
@@ -49,9 +71,12 @@
                 &-item{
                     gap: 24px;
                     .blog_list-img{
-                        aspect-ratio: 146/160;
-                        // width: 146px;
-                        // height: 160px;
+                        aspect-ratio: 146 / 162;
+                        height: 100%;
+                        transition:  transform 0.15s ease-in-out 0.15s;
+                        &:hover{
+                            transform: scale(1.05);
+                        }
                     }
                 }
                 &-body{
@@ -61,12 +86,22 @@
                         line-height: 150%;
                         font-weight: 400;
                         padding: 8px;
+                        color: $color-black-12;
+                        &:hover{
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
                     }
                     .name {
                         font-size: 24px;
                         line-height: 120%;
                         font-weight: 400;
                         font-family: $font-EB !important;
+                        color: $color-black-12;
+                        &:hover{
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
                     }
                     .description {
                         font-size: 16px;
@@ -78,6 +113,9 @@
 
                 }
             }
+        }
+        a {
+            cursor: pointer;
         }
     }
 }

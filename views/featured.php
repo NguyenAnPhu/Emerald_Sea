@@ -7,7 +7,7 @@
             <h3 class="mx-0">
                 Trang Sức Nổi Bật Từ Emerald Sea
             </h3>
-            <button class="border-0 bg-transparent" type="submit">
+            <button class=" border-0 bg-transparent" type="submit">
                 <div class="btn d-flex gap-2">
                     <span>XEM THÊM</span>
                     <i class="lp-next"></i>
@@ -19,56 +19,56 @@
                 <div class="swiper swiper-feature">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide mb-4">
-                            <div class=" d-flex flex-column gap-2 mb-5">
-                                <img src="assets/images/product1.png" alt="" srcset="">
+                            <a class="text-decoration-none d-flex flex-column gap-2 mb-5">
+                                <img class="mx-0 " src="assets/images/product1.png" alt="" srcset="">
                                 <span class="name text-center">Nhẫn bạc đính đá XMXMC060002</span>
                                 <span class="price">895,000₫</span>
-                            </div>
-                            <div class=" d-flex flex-column gap-2 mb-5">
-                                <img src="assets/images/product2.png" alt="" srcset="">
+                            </a>
+                            <a class="text-decoration-none d-flex flex-column gap-2 mb-5">
+                                <img class="mx-0 w-100" src="assets/images/product2.png" alt="" srcset="">
                                 <span class="name text-center">Nhẫn bạc đính đá XMXMW060060</span>
                                 <span class="price">500,500₫</span>
-                            </div>
+                            </a>
 
                         </div>
                         <div class="swiper-slide mb-4">
-                            <div class=" d-flex flex-column gap-2 mb-5">
-                                <img src="assets/images/product3.png" alt="" srcset="">
+                            <a class="text-decoration-none d-flex flex-column gap-2 mb-5">
+                                <img class="mx-0 w-100" src="assets/images/product3.png" alt="" srcset="">
                                 <span class="name text-center ">Nhẫn bạc đính ngọc trai NHXMW060002</span>
                                 <span class="price">500,500₫</span>
-                            </div>
-                            <div class=" d-flex flex-column gap-2 mb-5">
-                                <img src="assets/images/product4.png" alt="" srcset="">
+                            </a>
+                            <a class="text-decoration-none d-flex flex-column gap-2 mb-5">
+                                <img class="mx-0 w-100" src="assets/images/product4.png" alt="" srcset="">
                                 <span class="name text-center">Nhẫn bạc đính đá XMXMW060029</span>
                                 <span class="price">595,000₫</span>
-                            </div>
+                            </a>
                         </div>
                         <div class="swiper-slide mb-4">
-                            <div class="col d-flex flex-column gap-2 mb-5">
-                                <img src="assets/images/product5.png" alt="" srcset="">
+                            <a class="col d-flex flex-column gap-2 mb-5 text-decoration-none">
+                                <img class="mx-0 w-100" src="assets/images/product5.png" alt="" srcset="">
                                 <span class="name text-center">Nhẫn bạc đính đá XMXMW060031</span>
                                 <span class="price">556,500₫</span>
-                            </div>
-                            <div class="col d-flex flex-column gap-2 mb-5">
-                                <img src="assets/images/product6.png" alt="" srcset="">
+                            </a>
+                            <a class="col d-flex flex-column gap-2 mb-5 text-decoration-none">
+                                <img class="mx-0 w-100" src="assets/images/product6.png" alt="" srcset="">
                                 <span class="name text-center">Nhẫn vàng 18K đính đá XMXMY006396
                                 </span>
                                 <span class="price">10,516,000₫</span>
-                            </div>
+                            </a>
 
                         </div>
                         <div class="swiper-slide mb-4">
-                            <div class="col d-flex flex-column gap-2 mb-5">
-                                <img src="assets/images/product7.png" alt="" srcset="">
+                            <a class="col d-flex flex-column gap-2 mb-5 text-decoration-none">
+                                <img class="mx-0 w-100" src="assets/images/product7.png" alt="" srcset="">
                                 <span class="name text-center">Nhẫn bạc đính đá STYLE PM00Y000001
                                 </span>
                                 <span class="price">795,000₫</span>
-                            </div>
-                            <div class="col d-flex flex-column gap-2 mb-5">
-                                <img src="assets/images/product8.png" alt="" srcset="">
+                            </a>
+                            <a class="col d-flex flex-column gap-2 mb-5 text-decoration-none">
+                                <img class="mx-0 w-100" src="assets/images/product8.png" alt="" srcset="">
                                 <span class="name text-center">Nhẫn cưới nam vàng 18K đính đá ECZ XM00Y002737</span>
                                 <span class="price">13,290,000₫</span>
-                            </div>
+                            </a>
                         </div>
                     </div>
 
