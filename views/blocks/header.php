@@ -3,7 +3,7 @@
         <div class="logo col-1 m-0">
             <img src="assets/images/logoHeader.png" alt="">
         </div>
-        <div class="nav col-11 d-none d-lg-flex justify-content-end align-items-center m-0">
+        <div class="nav col-11 col-xl-9 d-none d-lg-flex justify-content-end align-items-center m-0">
             <ul class="menu col-9 d-flex justify-content-between gap-3 list-unstyled fw-semibold ">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center"

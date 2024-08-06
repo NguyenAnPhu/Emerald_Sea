@@ -32,30 +32,38 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="collection_list-detail d-flex flex-column align-items-center">
-                            <img src="assets/images/collection_silver1.png" alt="">
+                            <a class="mx-0" href="">
+                                <img class="" src="assets/images/collection_silver1.png" alt="">
+                            </a>
                             <a class="name text-decoration-none">Bộ trang sức Bạc</a>
                             <span class="price">1,800,000₫</span>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="collection_list-detail d-flex flex-column align-items-center">
-                            <img src="assets/images/collection_silver2.png" alt="">
-                            <a class="name text-decoration-none">Bộ trang sức Bạc</a>
-                            <span class="price">1,800,000₫</span>
+                            <a class="mx-0" href="">
+                                <img class="" src="assets/images/collection_silver2.png" alt="">
+                            </a>
+                            <a class="name text-decoration-none">Bộ trang sức bạc đính đá Fantasia</a>
+                            <span class="price">2,800,000₫</span>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="collection_list-detail d-flex flex-column align-items-center">
-                            <img src="assets/images/collection_silver3.png" alt="">
-                            <a class="name text-decoration-none">Bộ trang sức Bạc</a>
-                            <span class="price">1,800,000₫</span>
+                            <a class="mx-0" href="">
+                                <img class="" src="assets/images/collection_silver3.png" alt="">
+                            </a>
+                            <a class="name text-decoration-none">Bộ trang sức Kim cương Vàng trắng 14K</a>
+                            <span class="price">144,675,000₫</span>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="collection_list-detail d-flex flex-column align-items-center">
-                            <img src="assets/images/collection_silver4.png" alt="">
-                            <a class="name text-decoration-none">Bộ trang sức Bạc</a>
-                            <span class="price">1,800,000₫</span>
+                            <a class="mx-0" href="">
+                                <img class="" src="assets/images/collection_silver4.png" alt="">
+                            </a>
+                            <a class="name text-decoration-none">Bộ trang sức bạc Friendzone Breaker</a>
+                            <span class="price">1,602,000₫</span>
                         </div>
                     </div>
                 </div>
@@ -81,11 +89,12 @@
         },
         breakpoints: {
             320: {
-                slidesPerView: 1,
+                slidesPerView: 2,
+                spaceBetween: 10
 
             },
             576: {
-                slidesPerView: 2,
+                slidesPerView: 3,
                 spaceBetween: 20
             },
             796: {
@@ -93,13 +102,10 @@
                 spaceBetween: 20
             },
             992: {
-                slidesPerView: 3,
+                slidesPerView: 4,
                 spaceBetween: 10
             },
-            1240: {
-                slidesPerView: 4,
-                spaceBetween: 20
-            }
+
         }
     });
 </script>

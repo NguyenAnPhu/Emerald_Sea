@@ -6,33 +6,33 @@ $width-1200: 1200px;
 $width-1440: 1440px;
 
 @mixin max-width-375 {
-    @media (max-width: #{$width-375}) {
+    @media (max-width: #{$width-375 + 1}) {
         @content;
     }
 }
 
 @mixin max-width-576 {
-    @media (max-width: #{$width-576}) {
+    @media (max-width: #{$width-576 + 1}) {
         @content;
     }
 }
 @mixin max-width-768 {
-    @media (max-width: #{$width-768}) {
+    @media (max-width: #{$width-768 + 1}) {
         @content;
     }
 }
 @mixin max-width-992 {
-    @media (max-width: #{$width-992}) {
+    @media (max-width: #{$width-992 + 1}) {
         @content;
     }
 }
 @mixin max-width-1200 {
-    @media (max-width: #{$width-1200}) {
+    @media (max-width: #{$width-1200 + 1}) {
         @content;
     }
 }
 @mixin max-width-1440 {
-    @media (max-width: #{$width-1440}) {
+    @media (max-width: #{$width-1440 + 1}) {
         @content;
     }
 }

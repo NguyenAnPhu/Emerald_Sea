@@ -89,19 +89,19 @@ var swiper = new Swiper(".swiper-feature", {
     },
     breakpoints: {
         320: {
-            slidesPerView: 1,
-
-        },
-        576: {
-            slidesPerView: 2,
-            spaceBetween: 20
-        },
-        796: {
             slidesPerView: 2,
             spaceBetween: 10
         },
-        992: {
+        576: {
             slidesPerView: 3,
+            spaceBetween: 20
+        },
+        796: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        992: {
+            slidesPerView: 4,
             spaceBetween: 20
         },
         1240: {

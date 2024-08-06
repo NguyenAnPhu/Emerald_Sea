@@ -76,6 +76,10 @@
                         &:hover{
                             transform: scale(1.05);
                         }
+                        @include max-width-576{
+                            height: auto;
+                            max-width: 153px;
+                        }
                     }
                 }
                 &-body{
@@ -100,6 +104,10 @@
                         &:hover{
                             font-weight: 600;
                             cursor: pointer;
+                        }
+                        @include max-width-375{
+                            @include webkit-box(2);
+
                         }
                     }
                     .description {
