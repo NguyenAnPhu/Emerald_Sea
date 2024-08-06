@@ -80,14 +80,15 @@
                         }
                         img {
                             aspect-ratio: 282/406;
-                            @include max-width-768 {
-                                height: auto;
-                            }
                             transition:  transform 0.15s ease-in-out 0.15s;
                             &:hover{
                                 // transform: scale(1.15);
                                 border: 1px solid $color-black-12;
                             }
+                            @include max-width-768 {
+                                height: auto;
+                            }
+                            
                             
                         }
                     }

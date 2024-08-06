@@ -19,7 +19,6 @@
             }
         }
         &_content{
-            gap: 24px;
             .blog_hot{
                 gap: 24px;
                 &-img{
@@ -35,7 +34,7 @@
                     
                 }
                 &-body{
-                    gap: 12px;
+                    margin-bottom: 10px;
                     .blog-category{
                         font-size: 14px;
                         line-height: 150%;

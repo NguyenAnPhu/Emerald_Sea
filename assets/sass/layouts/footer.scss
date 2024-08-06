@@ -12,15 +12,18 @@
 
             .footer-info {
 
-                @include max-width-992{
-                    display: grid !important;
-                    width: 100%;
-                    grid-template-columns: repeat(2, 1fr);
-                    align-items: start;
-                }
+                // @include max-width-992{
+                //     display: grid !important;
+                //     width: 100%;
+                //     grid-template-columns: repeat(2, 1fr);
+                //     align-items: start;
+                // }
                 .contact {
                     gap: 24px;
 
+                    @include max-width-576 {
+                        margin-bottom: 20px;
+                    }
                     h6 {
                         color: $color-black-12;
                         font-weight: 400;
@@ -47,13 +50,18 @@
                         line-height: 20px;
                         font-weight: 400;
                         color: $color-black-10;
+                        @include max-width-768 {
+                            text-align: center;
+                        }
                     }
 
                 }
 
                 .support {
                     gap: 24px;
-
+                    @include max-width-576 {
+                        margin-bottom: 20px;
+                    }
                     h6 {
                         color: $color-black-12;
                         font-weight: 400;
@@ -80,12 +88,20 @@
                         line-height: 20px;
                         font-weight: 400;
                         color: $color-black-10;
+                        &:hover{
+                            text-decoration: underline !important;
+                        }
+                        @include max-width-768 {
+                            text-align: center;
+                        }
                     }
                 }
 
                 .about-us {
                     gap: 24px;
-
+                    @include max-width-576 {
+                        margin-bottom: 20px;
+                    }
                     h6 {
                         color: $color-black-12;
                         font-weight: 400;
@@ -112,12 +128,21 @@
                         line-height: 20px;
                         font-weight: 400;
                         color: $color-black-10;
+                        &:hover{
+                            text-decoration: underline !important;
+                            }   
+                        @include max-width-768 {
+                            text-align: center;
+                        }
                     }
+                        
                 }
 
                 .connect {
                     gap: 24px;
-
+                    @include max-width-576 {
+                        margin-bottom: 20px;
+                    }
                     h6 {
                         color: $color-black-12;
                         font-weight: 400;

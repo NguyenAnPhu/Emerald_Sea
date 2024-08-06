@@ -1,12 +1,12 @@
 <div class="bg-blog">
     <div class="blog container-xl">
         <h2 class="blog_title ms-3 mb-5">Blog Trang Sức Emerald Sea</h2>
-        <div class="blog_content d-flex flex-column flex-lg-row">
-            <div class="blog_hot col-12 col-lg-6 d-flex flex-column">
+        <div class="blog_content row">
+            <div class="blog_hot col-12 col-lg-6 d-flex flex-column mx-0 pb-3">
                 <a class="blog_hot-img mx-0">
                     <img class="w-100" src="assets/images/blog_img-1.png" alt="">
                 </a>
-                <div class="blog_hot-body d-flex flex-column">
+                <div class="blog_hot-body">
                     <a class="blog-category text-decoration-none mx-0">TRANG SỨC CƯỚI</a>
                     <div>
                         <a class=" name text-decoration-none">Cảm hứng sau bộ trang sức cưới của cô dâu hào môn</a>
@@ -17,8 +17,8 @@
                     </div>
                 </div>
             </div>
-            <div class="blog_list col-12 col-lg-6 d-flex flex-column">
-                <div class="blog_list-item d-flex justify-content-center mx-0">
+            <div class="blog_list col-12 col-lg-6 d-flex flex-column mx-0">
+                <div class="blog_list-item d-flex justify-content-start mx-0">
                     <a class="blog_list-img mx-0">
                         <img src="assets/images/blog_img-2.png" alt="">
                     </a>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog_list-item d-flex justify-content-center mx-0">
+                <div class="blog_list-item d-flex justify-content-start mx-0">
                     <a class="blog_list-img mx-0">
                         <img src="assets/images/blog_img-3.png" alt="">
                     </a>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog_list-item d-flex justify-content-center mx-0">
+                <div class="blog_list-item d-flex justify-content-start mx-0">
                     <a class="blog_list-img mx-0">
                         <img src="assets/images/blog_img-4.png" alt="">
                     </a>
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog_list-item d-flex justify-content-center mx-0">
+                <div class="blog_list-item d-flex justify-content-start mx-0">
                     <a class="blog_list-img mx-0">
                         <img src="assets/images/blog_img-5.png" alt="">
                     </a>

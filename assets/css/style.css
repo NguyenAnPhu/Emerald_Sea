@@ -545,13 +545,13 @@ header .header .nav .options i {
   aspect-ratio: 282/406;
   transition: transform 0.15s ease-in-out 0.15s;
 }
+.bg_best-seller .best_seller-content .hot_deal-item img:hover {
+  border: 1px solid #141414;
+}
 @media (max-width: 768px) {
   .bg_best-seller .best_seller-content .hot_deal-item img {
     height: auto;
   }
-}
-.bg_best-seller .best_seller-content .hot_deal-item img:hover {
-  border: 1px solid #141414;
 }
 @media (max-width: 576px) {
   .bg_best-seller .best_seller-content .hot_deal-banner {
@@ -798,9 +798,6 @@ header .header .nav .options i {
     font-size: 30px;
   }
 }
-.bg-blog .blog_content {
-  gap: 24px;
-}
 .bg-blog .blog_content .blog_hot {
   gap: 24px;
 }
@@ -816,7 +813,7 @@ header .header .nav .options i {
   height: auto;
 }
 .bg-blog .blog_content .blog_hot-body {
-  gap: 12px;
+  margin-bottom: 10px;
 }
 .bg-blog .blog_content .blog_hot-body .blog-category {
   font-size: 14px;
@@ -917,16 +914,13 @@ header .header .nav .options i {
 .footer_content-detail {
   gap: 24px;
 }
-@media (max-width: 992px) {
-  .footer_content-detail .footer-info {
-    display: grid !important;
-    width: 100%;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: start;
-  }
-}
 .footer_content-detail .footer-info .contact {
   gap: 24px;
+}
+@media (max-width: 576px) {
+  .footer_content-detail .footer-info .contact {
+    margin-bottom: 20px;
+  }
 }
 .footer_content-detail .footer-info .contact h6 {
   color: #141414;
@@ -953,8 +947,18 @@ header .header .nav .options i {
   font-weight: 400;
   color: #262626;
 }
+@media (max-width: 768px) {
+  .footer_content-detail .footer-info .contact span {
+    text-align: center;
+  }
+}
 .footer_content-detail .footer-info .support {
   gap: 24px;
+}
+@media (max-width: 576px) {
+  .footer_content-detail .footer-info .support {
+    margin-bottom: 20px;
+  }
 }
 .footer_content-detail .footer-info .support h6 {
   color: #141414;
@@ -981,8 +985,21 @@ header .header .nav .options i {
   font-weight: 400;
   color: #262626;
 }
+.footer_content-detail .footer-info .support a:hover {
+  text-decoration: underline !important;
+}
+@media (max-width: 768px) {
+  .footer_content-detail .footer-info .support a {
+    text-align: center;
+  }
+}
 .footer_content-detail .footer-info .about-us {
   gap: 24px;
+}
+@media (max-width: 576px) {
+  .footer_content-detail .footer-info .about-us {
+    margin-bottom: 20px;
+  }
 }
 .footer_content-detail .footer-info .about-us h6 {
   color: #141414;
@@ -1009,8 +1026,21 @@ header .header .nav .options i {
   font-weight: 400;
   color: #262626;
 }
+.footer_content-detail .footer-info .about-us a:hover {
+  text-decoration: underline !important;
+}
+@media (max-width: 768px) {
+  .footer_content-detail .footer-info .about-us a {
+    text-align: center;
+  }
+}
 .footer_content-detail .footer-info .connect {
   gap: 24px;
+}
+@media (max-width: 576px) {
+  .footer_content-detail .footer-info .connect {
+    margin-bottom: 20px;
+  }
 }
 .footer_content-detail .footer-info .connect h6 {
   color: #141414;
