@@ -6,7 +6,7 @@
         <div class="nav col-11 col-xl-9 d-none d-lg-flex justify-content-end align-items-center m-0">
             <ul class="menu col-9 d-flex justify-content-between gap-3 list-unstyled fw-semibold ">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center"
+                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-4"
                         href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         TRANG SỨC
                     </a>
@@ -17,7 +17,7 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center"
+                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-4"
                         href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         TRANG SỨC CƯỚI
                     </a>
@@ -30,7 +30,7 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center"
+                    <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-4"
                         href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         QUÀ TẶNG
                     </a>
@@ -88,7 +88,7 @@
             <div class="offcanvas-body mx-0">
                 <ul class="menu list-unstyled fw-semibold ">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-3"
+                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-4 gap-3"
                             href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             TRANG SỨC
                         </a>
@@ -99,7 +99,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-3"
+                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-4 gap-3"
                             href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             TRANG SỨC CƯỚI
                         </a>
@@ -112,7 +112,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center"
+                        <a class="nav-link dropdown-toggle text-decoration-none d-flex justify-content-between align-items-center gap-4"
                             href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             QUÀ TẶNG
                         </a>
