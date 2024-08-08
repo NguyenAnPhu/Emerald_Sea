@@ -1256,6 +1256,7 @@ header .header .nav .options i {
 @media (max-width: 575px) {
   .bg-blog .blog__content__list__item__img {
     height: auto;
+    width: 40%;
   }
 }
 .bg-blog .blog__content__list__item__body {
