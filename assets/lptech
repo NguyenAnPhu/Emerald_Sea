@@ -1,0 +1,61 @@
+#!/usr/bin/php
+<?php
+$option = isset($argv[1]) ? $argv[1] :null;
+if(function_exists($option))
+{
+    $option();
+} else {
+    echo sprintf ("\n** Command not found: type \e[0;33;46mphp lptech help\e[0m to get help ** \n");
+}
+
+function __make()
+{
+    $sass_dirs = scandir('assets/sass');
+    $content = '';
+    foreach($sass_dirs as $dir)
+    {
+        if (!in_array($dir, ['.','..']) && !is_file('assets/sass/'.$dir)) 
+        {
+            // get file from pages folder
+            foreach(scandir('assets/sass/'.$dir) as $page)
+            {
+                if(!in_array($page, ['.','..']))
+                {
+                    $rtrim = str_replace('.scss','',$page);
+                    $page = ltrim($rtrim, '_');
+                    $content .= '@import "'.$dir.'/'.$page.'";' . "\n";
+                }
+            }
+        }
+    }
+    $sass = fopen("assets/sass/main.scss", "w") or die("Unable to open file!");
+    fwrite($sass, $content);
+    fclose($sass);
+}
+
+function compressed()
+{
+    // Build page
+    __make();
+    $command = "cd ./assets && sass ./sass/main.scss ./css/style.css --style compressed";
+    exec($command);
+}
+
+function watch()
+{
+    // Build page
+    __make();
+    $command = "cd ./assets && sass ./sass/main.scss ./css/style.css --watch";
+    exec($command);
+}
+
+function help()
+{
+    $function_list = get_defined_functions();
+    echo sprintf ("\n** Commandline: \e[0;33;46mphp lptech [function]\e[0m \n");
+    echo sprintf ("\n** Available function can use: \n");
+    foreach ($function_list['user'] as $func)
+    {
+        echo sprintf ("---- {$func} \n");
+    }
+}

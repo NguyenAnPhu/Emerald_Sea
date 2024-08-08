@@ -1,0 +1,155 @@
+header {
+    background-color: #F5F4F2;
+    .header {
+        width: 90%;
+
+        @include max-width-1200 {
+            width: 100%;
+        }
+        @include max-width-992 {
+            width: 100%;
+            padding: 12px;
+
+        }
+        .nav-response{
+            background-color: #F5F4F2;
+            h5 {
+                font-weight: 600;
+                font-family: $font-EB !important;
+                font-size: 20px !important;
+                line-height: 30px !important;
+                color: $color-black-12;
+            }
+            .btn-close{
+                color: $color-black-12;
+                opacity: 1;
+                border: none;
+                outline: 0;
+                box-shadow: none;
+            }
+            .nav-item_search{
+                a{
+                    color: $color-black-12;
+                }
+                .dropdown-menu{
+                   .form-control {
+                        background-color: transparent;
+                        &:focus{
+                            background-color: transparent;
+                            outline: none;
+                            box-shadow: none;
+                            border: 1px solid $color-black-12;
+                        }
+                   }
+                }
+            }
+            .nav-link {
+                font-weight: 600;
+                font-family: $font-EB !important;
+                font-size: 20px !important;
+                line-height: 30px !important;
+                color: $color-black-12;
+                margin: 0;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration:underline;
+                    background-color: transparent;
+                }
+            }
+            .dropdown-menu{
+                background-color: #F5F4F2;
+                a {
+                    font-weight: 600;
+                    font-family: $font-EB !important;
+                    font-size: 20px !important;
+                    line-height: 30px !important;
+                    color: $color-black-12;
+                    transition: all .35s ease-in-out;
+                    &:hover{
+                        background-color: transparent;
+                    }
+
+                }
+            }
+            .options {
+                font-size: 20px;
+                i {
+                    cursor: pointer;
+                }
+            }
+        }
+        .nav {
+            padding: 28px 0;
+            &__menu {
+                margin: 0;
+                padding-right: 24px;
+                border-right: 1px solid #000;
+
+                &--item {
+                    &__link {
+                        font-weight: 600;
+                        font-family: $font-EB !important;
+                        font-size: 14px !important;
+                        line-height: 20px !important;
+                        color: $color-black-12;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                    .dropdown-menu{
+                        background-color: #F5F4F2;
+                        .dropdown-item{
+                            
+                          
+                            font-weight: 600;
+                            font-family: $font-EB !important;
+                            font-size: 14px !important;
+                            line-height: 20px !important;
+                            color: $color-black-12;
+                            transition: all .35s ease-in-out;
+                            &:hover{
+                                text-decoration: underline;
+                                background-color: #F5F4F2;
+                            }
+                        }
+                    }
+                }
+                
+            }
+
+            .options {
+                gap: 24px;
+                padding-left: 24px;
+                .nav-item_search {
+                    a {
+                        margin: 0;
+                        color: $color-black-12;
+                    }
+                    .form-control {
+                        width: 160px;
+                        &:focus{
+                            background-color: transparent;
+                            border: 1px solid $color-black-12;
+                            box-shadow:none;
+                        }
+                    }
+                    .btn {
+                        background-color: $color-black-12;
+                        color: #F5F4F2;
+                        padding: 0 8px;
+                        &:hover{
+                            background-color: #F5F4F2;
+                            color: $color-black-12;
+                        }
+                    }
+                }
+                i {
+                        cursor: pointer;
+                        font-size: 20px;
+                    }
+            }
+        }
+
+    }
+
+}
