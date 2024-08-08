@@ -1,6 +1,6 @@
 <div class="footer">
     <div class="footer_content container-xl">
-        <div class="footer_content-detail row justify-content-center">
+        <div class="footer_content-detail row justify-content-between">
             <div class="footer-logo col-12 col-xl-3 mx-0 d-flex justify-content-center align-items-start">
                 <img src="<?=PUBLIC_ASSETS_URL?>assets/imgs/logoFooter.png" alt="" srcset="">
             </div>

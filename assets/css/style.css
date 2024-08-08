@@ -1,13 +1,13 @@
 @font-face {
   font-family: "lptech-font";
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/lptech-font.eot");
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/lptech-font.eot?#iefix") format("embedded-opentype"), url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/lptech-font.woff") format("woff"), url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/lptech-font.ttf") format("truetype"), url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/lptech-font.svg#lptech-font") format("svg");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/lptech-font.eot");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/lptech-font.eot?#iefix") format("embedded-opentype"), url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/lptech-font.woff") format("woff"), url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/lptech-font.ttf") format("truetype"), url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/lptech-font.svg#lptech-font") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/Montserrat-Black.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/Montserrat-Black.ttf");
   font-style: normal;
   font-display: swap;
   font-optical-sizing: auto;
@@ -15,7 +15,7 @@
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/Montserrat-Bold.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/Montserrat-Bold.ttf");
   font-style: normal;
   font-display: swap;
   font-optical-sizing: auto;
@@ -23,7 +23,7 @@
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/Montserrat-BoldItalic.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/Montserrat-BoldItalic.ttf");
   font-style: italic;
   font-display: swap;
   font-optical-sizing: auto;
@@ -31,7 +31,7 @@
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/Montserrat-SemiBold.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/Montserrat-SemiBold.ttf");
   font-style: normal;
   font-display: swap;
   font-optical-sizing: auto;
@@ -39,7 +39,7 @@
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/Montserrat-SemiBoldItalic.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/Montserrat-SemiBoldItalic.ttf");
   font-style: italic;
   font-display: swap;
   font-optical-sizing: auto;
@@ -47,7 +47,7 @@
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/Montserrat-MediumItalic.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/Montserrat-MediumItalic.ttf");
   font-style: italic;
   font-display: swap;
   font-optical-sizing: auto;
@@ -55,7 +55,7 @@
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/Montserrat-Medium.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/Montserrat-Medium.ttf");
   font-style: normal;
   font-display: swap;
   font-optical-sizing: auto;
@@ -63,7 +63,7 @@
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/Montserrat-Italic.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/Montserrat-Italic.ttf");
   font-style: italic;
   font-display: swap;
   font-optical-sizing: auto;
@@ -71,7 +71,7 @@
 }
 @font-face {
   font-family: "Montserrat", sans-serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/Montserrat-Regular.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/Montserrat-Regular.ttf");
   font-style: normal;
   font-display: swap;
   font-optical-sizing: auto;
@@ -79,7 +79,7 @@
 }
 @font-face {
   font-family: "EB Garamond", serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/EBGaramond-Bold.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/EBGaramond-Bold.ttf");
   font-style: normal;
   font-display: swap;
   font-optical-sizing: auto;
@@ -87,7 +87,7 @@
 }
 @font-face {
   font-family: "EB Garamond", serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/EBGaramond-BoldItalic.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/EBGaramond-BoldItalic.ttf");
   font-style: italic;
   font-display: swap;
   font-optical-sizing: auto;
@@ -95,7 +95,7 @@
 }
 @font-face {
   font-family: "EB Garamond", serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/EBGaramond-SemiBold.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/EBGaramond-SemiBold.ttf");
   font-style: normal;
   font-display: swap;
   font-optical-sizing: auto;
@@ -103,7 +103,7 @@
 }
 @font-face {
   font-family: "EB Garamond", serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/EBGaramond-SemiBoldItalic.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/EBGaramond-SemiBoldItalic.ttf");
   font-style: italic;
   font-display: swap;
   font-optical-sizing: auto;
@@ -111,7 +111,7 @@
 }
 @font-face {
   font-family: "EB Garamond", serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/EBGaramond-MediumItalic.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/EBGaramond-MediumItalic.ttf");
   font-style: italic;
   font-display: swap;
   font-optical-sizing: auto;
@@ -119,7 +119,7 @@
 }
 @font-face {
   font-family: "EB Garamond", serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/EBGaramond-Medium.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/EBGaramond-Medium.ttf");
   font-style: normal;
   font-display: swap;
   font-optical-sizing: auto;
@@ -127,7 +127,7 @@
 }
 @font-face {
   font-family: "EB Garamond", serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/EBGaramond-Italic.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/EBGaramond-Italic.ttf");
   font-style: italic;
   font-display: swap;
   font-optical-sizing: auto;
@@ -135,7 +135,7 @@
 }
 @font-face {
   font-family: "EB Garamond", serif;
-  src: url("http://localhost/EmeraldSea_lptTemplate/assets/vendor/fonts/EBGaramond-Regular.ttf");
+  src: url("http://localhost/EmeraldSea_TemplateNew/assets/vendor/fonts/EBGaramond-Regular.ttf");
   font-style: normal;
   font-display: swap;
   font-optical-sizing: auto;
@@ -558,7 +558,7 @@ header .header .nav .options i {
 }
 
 .hero {
-  background-image: url("http://localhost/EmeraldSea_lptTemplate/assets/imgs/bg-hero.png");
+  background-image: url("http://localhost/EmeraldSea_TemplateNew/assets/imgs/bg-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -677,7 +677,7 @@ header .header .nav .options i {
 }
 
 .category {
-  background-image: url("http://localhost/EmeraldSea_lptTemplate/assets/imgs/bg-category.png");
+  background-image: url("http://localhost/EmeraldSea_TemplateNew/assets/imgs/bg-category.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -772,9 +772,18 @@ header .header .nav .options i {
     margin: 24px 0;
   }
 }
-.collection__top__item--img:hover {
+.collection__top__item__img {
+  overflow: hidden;
+}
+.collection__top__item__img:hover {
   cursor: pointer;
-  border: 1px solid #141414;
+  border: 1px solid #BFBFBF;
+}
+.collection__top__item__img img {
+  transition: transform 0.1s ease-in-out 0.1s;
+}
+.collection__top__item__img img:hover {
+  transform: scale(1.25);
 }
 .collection__top__item--sale {
   padding: 8px;
@@ -825,12 +834,18 @@ header .header .nav .options i {
   gap: 12px;
   margin-bottom: 48px;
 }
-.collection__list__detail--img {
-  margin: 0;
-  width: 100%;
+.collection__list__detail__img {
+  overflow: hidden;
+  border: 1px solid #BFBFBF;
 }
-.collection__list__detail--img:hover {
-  border: 1px solid #141414;
+.collection__list__detail__img:hover {
+  cursor: pointer;
+}
+.collection__list__detail__img img {
+  transition: transform 0.1s ease-in-out 0.1s;
+}
+.collection__list__detail__img img:hover {
+  transform: scale(1.25);
 }
 .collection__list__detail--name {
   font-weight: 400;
@@ -955,15 +970,19 @@ header .header .nav .options i {
   font-size: 20px;
   line-height: 150%;
 }
-.bg-best-seller .best__seller__content__hot-deal__item--img {
+.bg-best-seller .best__seller__content__hot-deal__item__img {
+  overflow: hidden;
   aspect-ratio: 282/406;
-  transition: transform 0.15s ease-in-out 0.15s;
+  border: 1px solid #BFBFBF;
 }
-.bg-best-seller .best__seller__content__hot-deal__item--img:hover {
-  border: 1px solid #141414;
+.bg-best-seller .best__seller__content__hot-deal__item__img img {
+  transition: transform 0.1s ease-in-out 0.1s;
+}
+.bg-best-seller .best__seller__content__hot-deal__item__img img:hover {
+  transform: scale(1.25);
 }
 @media (max-width: 767px) {
-  .bg-best-seller .best__seller__content__hot-deal__item--img {
+  .bg-best-seller .best__seller__content__hot-deal__item__img img {
     height: auto;
   }
 }
@@ -989,14 +1008,29 @@ header .header .nav .options i {
 .bg-best-seller .best__seller__content__product {
   margin-top: 48px;
 }
+.bg-best-seller .best__seller__content__product__img {
+  overflow: hidden;
+  aspect-ratio: 282/406;
+  border: 1px solid #BFBFBF;
+}
+.bg-best-seller .best__seller__content__product__img:hover {
+  cursor: pointer;
+}
 @media (max-width: 1199px) {
-  .bg-best-seller .best__seller__content__product--img {
+  .bg-best-seller .best__seller__content__product__img {
     width: auto !important;
   }
 }
-.bg-best-seller .best__seller__content__product--img:hover {
-  cursor: pointer;
-  border: 1px solid #141414;
+.bg-best-seller .best__seller__content__product__img img {
+  transition: transform 0.1s ease-in-out 0.1s;
+}
+.bg-best-seller .best__seller__content__product__img img:hover {
+  transform: scale(1.25);
+}
+@media (max-width: 767px) {
+  .bg-best-seller .best__seller__content__product__img img {
+    height: auto;
+  }
 }
 .bg-best-seller .best__seller__content__product--name {
   margin-top: 10px;
@@ -1061,17 +1095,24 @@ header .header .nav .options i {
 .featured .featured__content__product__detail {
   gap: 24px;
 }
-.featured .featured__content__product__detail--img {
+.featured .featured__content__product__detail__img {
+  overflow: hidden;
+  border: 1px solid #BFBFBF;
   width: 100%;
   aspect-ratio: 282/412;
   object-fit: cover;
-  transition: transform 0.15s ease-in-out 0.15s;
 }
-.featured .featured__content__product__detail--img:hover {
-  border: 1px solid #141414;
+.featured .featured__content__product__detail__img:hover {
+  cursor: pointer;
+}
+.featured .featured__content__product__detail__img img {
+  transition: transform 0.1s ease-in-out 0.1s;
+}
+.featured .featured__content__product__detail__img img:hover {
+  transform: scale(1.25);
 }
 @media (max-width: 991px) {
-  .featured .featured__content__product__detail--img {
+  .featured .featured__content__product__detail__img {
     width: auto;
   }
 }
@@ -1101,7 +1142,7 @@ header .header .nav .options i {
 }
 
 .bg-whyChoose {
-  background-image: url("http://localhost/EmeraldSea_lptTemplate/assets/imgs/bg-whyChoose.png");
+  background-image: url("http://localhost/EmeraldSea_TemplateNew/assets/imgs/bg-whyChoose.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1128,10 +1169,10 @@ header .header .nav .options i {
 }
 .bg-whyChoose .whyChoose__content__box-first {
   gap: 24px;
+  width: 80%;
 }
 .bg-whyChoose .whyChoose__content__box-first__detail {
-  width: 282px;
-  height: 300px;
+  max-width: 308px;
   background-color: #FCFCFC;
   padding: 36px 48px;
   gap: 24px;
@@ -1157,43 +1198,11 @@ header .header .nav .options i {
   font-size: 16px;
   line-height: 150%;
 }
-.bg-whyChoose .whyChoose__content__box-second {
-  gap: 24px;
-}
-.bg-whyChoose .whyChoose__content__box-second__detail {
-  width: 282px;
-  height: 300px;
-  background-color: #FCFCFC;
-  padding: 36px 48px;
-  gap: 24px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.bg-whyChoose .whyChoose__content__box-second__detail--icon {
-  padding: 16px;
-  background-color: #262626;
-  border-radius: 100px;
-  color: white;
-}
-.bg-whyChoose .whyChoose__content__box-second__detail--icon i {
-  font-size: 48px;
-}
-.bg-whyChoose .whyChoose__content__box-second__detail span {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 120%;
-  font-family: "EB Garamond", serif !important;
-}
-.bg-whyChoose .whyChoose__content__box-second__detail p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-}
 
 .bg-blog {
   background-color: #F5F4F2;
 }
 .bg-blog .blog {
-  gap: 48px;
   padding: 128px 12px;
 }
 @media (max-width: 375px) {
@@ -1213,66 +1222,28 @@ header .header .nav .options i {
     font-size: 30px;
   }
 }
-.bg-blog .blog__content__hot {
-  gap: 24px;
-}
-.bg-blog .blog__content__hot__img {
-  aspect-ratio: 588/559;
-  width: 100%;
-  transition: transform 0.15s ease-in-out 0.15s;
-}
-.bg-blog .blog__content__hot__img:hover {
-  transform: scale(1.05);
-}
-.bg-blog .blog__content__hot__img img {
-  height: auto;
-}
-.bg-blog .blog__content__hot__body {
-  margin-bottom: 10px;
-}
-.bg-blog .blog__content__hot__body--category {
-  font-size: 14px;
-  line-height: 150%;
-  font-weight: 400;
-  padding: 8px;
-  color: #141414;
-}
-.bg-blog .blog__content__hot__body--category:hover {
-  font-weight: 600;
-  cursor: pointer;
-}
-.bg-blog .blog__content__hot__body--name {
-  font-size: 24px;
-  line-height: 120%;
-  font-weight: 400;
-  font-family: "EB Garamond", serif !important;
-  color: #141414;
-}
-.bg-blog .blog__content__hot__body--name:hover {
-  font-weight: 600;
-  cursor: pointer;
-}
-.bg-blog .blog__content__hot__body--description {
-  font-size: 16px;
-  line-height: 150%;
-  font-weight: 400;
-  display: -webkit-box !important;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-break: break-word;
-}
 .bg-blog .blog__content__list {
   gap: 24px;
+  display: grid;
+  grid-template-areas: "myArea ." "myArea ." "myArea ." "myArea .";
+}
+@media (max-width: 1199px) {
+  .bg-blog .blog__content__list {
+    display: block;
+  }
 }
 .bg-blog .blog__content__list__item {
   gap: 24px;
 }
+@media (max-width: 1199px) {
+  .bg-blog .blog__content__list__item {
+    margin-bottom: 24px;
+  }
+}
 .bg-blog .blog__content__list__item__img {
   aspect-ratio: 146/162;
-  height: 100%;
   transition: transform 0.15s ease-in-out 0.15s;
+  flex-shrink: 0;
 }
 .bg-blog .blog__content__list__item__img:hover {
   transform: scale(1.05);
@@ -1280,11 +1251,17 @@ header .header .nav .options i {
 @media (max-width: 575px) {
   .bg-blog .blog__content__list__item__img {
     height: auto;
-    max-width: 153px;
   }
 }
 .bg-blog .blog__content__list__item__body {
   gap: 12px;
+}
+@media (max-width: 1199px) {
+  .bg-blog .blog__content__list__item__body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
 }
 .bg-blog .blog__content__list__item__body--category {
   font-size: 14px;
@@ -1328,6 +1305,32 @@ header .header .nav .options i {
   overflow: hidden;
   text-overflow: ellipsis;
   word-break: break-word;
+}
+.bg-blog .blog__content__list .index-1 {
+  grid-area: myArea;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1199px) {
+  .bg-blog .blog__content__list .index-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+  }
+}
+.bg-blog .blog__content__list .index-1__value {
+  aspect-ratio: 588/559;
+  width: 100%;
+  transition: transform 0.15s ease-in-out 0.15s;
+}
+.bg-blog .blog__content__list .index-1__value:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 1199px) {
+  .bg-blog .blog__content__list .index-1__value {
+    aspect-ratio: 146/162;
+    max-width: 153px;
+  }
 }
 .bg-blog .blog a {
   cursor: pointer;

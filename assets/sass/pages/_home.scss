@@ -215,10 +215,17 @@
             @include max-width-992{
                 margin: 24px 0;
             }
-            &--img {
+            &__img {
+                overflow: hidden;
                 &:hover{
                     cursor: pointer;
-                    border: 1px solid $color-black-12;
+                    border: 1px solid $color-black-6;
+                }
+                img {
+                    transition:  transform 0.10s ease-in-out 0.10s;
+                    &:hover{
+                        transform: scale(1.25);
+                    }
                 }
             }
             &--sale {
@@ -271,11 +278,17 @@
         &__detail {
             gap: 12px;
             margin-bottom: 48px;
-            &--img {
-                margin: 0;
-                width: 100%;
+            &__img {
+                overflow: hidden;
+                border: 1px solid $color-black-6;
                 &:hover{
-                    border: 1px solid $color-black-12;
+                    cursor: pointer;
+                }
+                img {
+                    transition:  transform 0.10s ease-in-out 0.10s;
+                    &:hover{
+                        transform: scale(1.25);
+                    }
                 }
             }
             
@@ -373,7 +386,6 @@
 
                 &__item {
                     gap: 48px;
-                    
                     &--sale{
                         padding: 8px;
                         top: 8px;
@@ -409,18 +421,20 @@
                         font-size: 20px;
                         line-height: 150%;
                     }
-                    &--img {
+
+                    &__img {
+                        overflow: hidden;
                         aspect-ratio: 282/406;
-                        transition:  transform 0.15s ease-in-out 0.15s;
-                        &:hover{
-                            // transform: scale(1.15);
-                            border: 1px solid $color-black-12;
+                        border: 1px solid $color-black-6;
+                        img {
+                            transition:  transform 0.10s ease-in-out 0.10s;
+                            &:hover{
+                                transform: scale(1.25);
+                            }
+                            @include max-width-768 {
+                                height: auto;
+                            }
                         }
-                        @include max-width-768 {
-                            height: auto;
-                        }
-                        
-                        
                     }
                 }
 
@@ -443,14 +457,25 @@
 
             &__product {
                 margin-top: 48px;
-                &--img {
-
+                &__img {
+                    overflow: hidden;
+                    aspect-ratio: 282/406;
+                    border: 1px solid $color-black-6;
+                    &:hover
+                    {
+                        cursor: pointer;
+                    }
                     @include max-width-1200 {
                         width: auto !important;
                     }
-                    &:hover{
-                        cursor: pointer;
-                        border: 1px solid $color-black-12;
+                    img {
+                        transition:  transform 0.10s ease-in-out 0.10s;
+                        &:hover{
+                            transform: scale(1.25);
+                        }
+                        @include max-width-768 {
+                            height: auto;
+                        }
                     }
                 }
                 &--name {
@@ -517,15 +542,21 @@
         &__product{
             &__detail{
                 gap: 24px;
-                &--img {
+                &__img {
+                    overflow: hidden;
+                    border: 1px solid $color-black-6;
                     width: 100%;
                     aspect-ratio: 282/412;
                     object-fit: cover;
-                    transition:  transform 0.15s ease-in-out 0.15s;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    img {
+                        transition:  transform 0.10s ease-in-out 0.10s;
                         &:hover{
-                            // transform: scale(1.15);
-                            border: 1px solid $color-black-12;
+                            transform: scale(1.25);
                         }
+                    }
                     @include max-width-992{
                         width: auto;
                     }
@@ -581,40 +612,9 @@
             gap: 24px;
             &__box-first {
                 gap: 24px;
+                width: 80%;
                 &__detail{
-                    width: 282px;
-                    height: 300px;
-                    background-color: #FCFCFC;
-                    padding: 36px 48px;
-                    gap: 24px;
-                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                    &--icon {
-                        padding: 16px;
-                        background-color: $color-black-10;
-                        border-radius: 100px;
-                        color: white;
-                        i {
-                            font-size: 48px;
-                        }
-                    }
-                    span {
-                        font-weight: 400;
-                        font-size: 24px;
-                        line-height: 120%;
-                        font-family: $font-EB !important;
-                    }
-                    p {
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 150%;
-                    }
-                }
-            }
-            &__box-second {
-                gap: 24px;
-                &__detail{
-                    width: 282px;
-                    height: 300px;
+                    max-width: 308px;
                     background-color: #FCFCFC;
                     padding: 36px 48px;
                     gap: 24px;
@@ -648,7 +648,6 @@
     background-color: #F5F4F2;
 
     .blog {
-        gap: 48px;
         padding: 128px 12px;
         @include max-width-375{
             padding: 40px 12px;
@@ -665,70 +664,187 @@
             }
         }
         &__content{
-            &__hot{
-                gap: 24px;
-                &__img{
-                    aspect-ratio: 588/559;
-                    width: 100%;
-                    transition: transform 0.15s ease-in-out 0.15s;
-                    &:hover{
-                        transform: scale(1.05);
-                    }
-                    img {
-                        height: auto;
-                    }
+            // &__new-hot{
+            //     gap: 24px;
+            //     display: grid !important;
+            //     grid-template-areas: 'myArea myArea .' 'myArea myArea .';
+            //     &__img{
+            //         aspect-ratio: 588/559;
+            //         width: 100%;
+            //         transition: transform 0.15s ease-in-out 0.15s;
+            //         &:hover{
+            //             transform: scale(1.05);
+            //         }
+            //         &--1 {
+            //             grid-area: myArea;
+            //         }
                     
-                }
-                &__body{
-                    margin-bottom: 10px;
-                    &--category{
-                        font-size: 14px;
-                        line-height: 150%;
-                        font-weight: 400;
-                        padding: 8px;
-                        color: $color-black-12;
-                        &:hover{
-                            font-weight: 600;
-                            cursor: pointer;
-                        }
-                    }
-                    &--name {
-                        font-size: 24px;
-                        line-height: 120%;
-                        font-weight: 400;
-                        font-family: $font-EB !important;
-                        color: $color-black-12;
-                        &:hover{
-                            font-weight: 600;
-                            cursor: pointer;
-                        }
-                    }
-                    &--description {
-                        font-size: 16px;
-                        line-height: 150%;
-                        font-weight: 400;
-                        @include webkit-box(3);
-                    }
-                }
-            }
+            //     }
+            //     &__body{
+            //         margin-bottom: 10px;
+            //         &--category{
+            //             font-size: 14px;
+            //             line-height: 150%;
+            //             font-weight: 400;
+            //             padding: 8px;
+            //             color: $color-black-12;
+            //             &:hover{
+            //                 font-weight: 600;
+            //                 cursor: pointer;
+            //             }
+            //         }
+            //         &--name {
+            //             font-size: 24px;
+            //             line-height: 120%;
+            //             font-weight: 400;
+            //             font-family: $font-EB !important;
+            //             color: $color-black-12;
+            //             &:hover{
+            //                 font-weight: 600;
+            //                 cursor: pointer;
+            //             }
+            //         }
+            //         &--description {
+            //             font-size: 16px;
+            //             line-height: 150%;
+            //             font-weight: 400;
+            //             @include webkit-box(3);
+            //         }
+            //     }
+            // }
+            // &__hot{
+            //     gap: 24px;
+
+            //     &__img{
+            //         aspect-ratio: 588/559;
+            //         width: 100%;
+            //         transition: transform 0.15s ease-in-out 0.15s;
+            //         &:hover{
+            //             transform: scale(1.05);
+            //         }
+
+                    
+            //     }
+            //     &__body{
+            //         margin-bottom: 10px;
+            //         &--category{
+            //             font-size: 14px;
+            //             line-height: 150%;
+            //             font-weight: 400;
+            //             padding: 8px;
+            //             color: $color-black-12;
+            //             &:hover{
+            //                 font-weight: 600;
+            //                 cursor: pointer;
+            //             }
+            //         }
+            //         &--name {
+            //             font-size: 24px;
+            //             line-height: 120%;
+            //             font-weight: 400;
+            //             font-family: $font-EB !important;
+            //             color: $color-black-12;
+            //             &:hover{
+            //                 font-weight: 600;
+            //                 cursor: pointer;
+            //             }
+            //         }
+            //         &--description {
+            //             font-size: 16px;
+            //             line-height: 150%;
+            //             font-weight: 400;
+            //             @include webkit-box(3);
+            //         }
+            //     }
+            // }
+            // &__list{
+            //     gap: 24px;
+
+            //     &__item{
+            //         gap: 24px;
+            //         &__img{
+            //             aspect-ratio: 146 / 162;
+            //             height: 100%;
+            //             transition:  transform 0.15s ease-in-out 0.15s;
+            //             &:hover{
+            //                 transform: scale(1.05);
+            //             }
+            //             @include max-width-576{
+            //                 height: auto;
+            //                 max-width: 153px;
+            //             }
+            //         }
+            //         &__body{
+            //             gap: 12px;
+            //             &--category{
+            //                 font-size: 14px;
+            //                 line-height: 150%;
+            //                 font-weight: 400;
+            //                 padding: 8px;
+            //                 color: $color-black-12;
+            //                 &:hover{
+            //                     font-weight: 600;
+            //                     cursor: pointer;
+            //                 }
+            //             }
+            //             &--name {
+            //                 font-size: 24px;
+            //                 line-height: 120%;
+            //                 font-weight: 400;
+            //                 font-family: $font-EB !important;
+            //                 color: $color-black-12;
+            //                 &:hover{
+            //                     font-weight: 600;
+            //                     cursor: pointer;
+            //                 }
+            //                 @include max-width-375{
+            //                     @include webkit-box(2);
+    
+            //                 }
+            //             }
+            //             &--description {
+            //                 font-size: 16px;
+            //                 line-height: 150%;
+            //                 font-weight: 400;
+            //                 @include webkit-box(2);
+    
+            //             }
+    
+            //         }
+            //     }
+
+
+            // }
             &__list{
                 gap: 24px;
+                display: grid;
+                grid-template-areas: 'myArea .' 'myArea .''myArea .' 'myArea .';
+                @include max-width-1200{
+                    display: block;
+                }
                 &__item{
                     gap: 24px;
+                    @include max-width-1200{
+                        margin-bottom: 24px;
+                    }
                     &__img{
                         aspect-ratio: 146 / 162;
-                        height: 100%;
                         transition:  transform 0.15s ease-in-out 0.15s;
+                        flex-shrink: 0;
                         &:hover{
                             transform: scale(1.05);
                         }
                         @include max-width-576{
                             height: auto;
-                            max-width: 153px;
                         }
                     }
                     &__body{
                         gap: 12px;
+                        @include max-width-1200{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: start;
+                        }
                         &--category{
                             font-size: 14px;
                             line-height: 150%;
@@ -765,7 +881,29 @@
     
                     }
                 }
+                .index-1{
+                    grid-area: myArea;
+                    display: flex;
+                    flex-direction: column;
+                    @include max-width-1200{
+                        display: flex;
+                        flex-direction: row;
+                        margin-bottom: 24px;
+                    }
+                    &__value {
+                        aspect-ratio: 588/559;
+                        width: 100%;
+                        transition: transform 0.15s ease-in-out 0.15s;
+                        &:hover{
+                            transform: scale(1.05);
+                        }
+                        @include max-width-1200{
+                            aspect-ratio: 146 / 162;
+                            max-width: 153px;
+                        }
+                    }
 
+                }
 
             }
         }
