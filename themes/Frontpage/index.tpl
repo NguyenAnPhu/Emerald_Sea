@@ -128,7 +128,7 @@
                 </a>
                 <a class="collection__top__item--name text-center text-decoration-none">Bộ trang sức cưới Vàng 24K Hoa
                     Tình Yêu</a>
-                <span class="collection__top__item --price-sale text-decoration-line-through">72,240,000 ₫</span>
+                <span class="collection__top__item--price-sale text-decoration-line-through">72,240,000 ₫</span>
                 <span class="collection__top__item--price">69,800,000₫</span>
             </div>
         </div>

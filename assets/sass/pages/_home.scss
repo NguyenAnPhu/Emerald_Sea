@@ -320,7 +320,7 @@
             border: 1px solid $color-black-12;
             border-radius: 0;
             color: $color-black-12;
-
+            transition:  0.35s ease-in-out;
             &:hover {
                 cursor: pointer;
                 color: #F5F4F2;
