@@ -124,7 +124,7 @@
                                 <img class="collection__list__detail--img"src="<?=PUBLIC_ASSETS_URL?>assets/imgs//collection_silver1.png" alt="">
                             </a>
                             <a class="collection__list__detail--name text-decoration-none">Bộ trang sức Bạc</a>
-                            <span class="price">1,800,000₫</span>
+                            <span class="collection__list__detail--price">1,800,000₫</span>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -133,7 +133,7 @@
                                 <img class="collection__list__detail--img"src="<?=PUBLIC_ASSETS_URL?>assets/imgs//collection_silver2.png" alt="">
                             </a>
                             <a class="collection__list__detail--name text-decoration-none">Bộ trang sức bạc đính đá Fantasia</a>
-                            <span class="price">2,800,000₫</span>
+                            <span class="collection__list__detail--price">2,800,000₫</span>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -142,7 +142,7 @@
                                 <img class="collection__list__detail--img"src="<?=PUBLIC_ASSETS_URL?>assets/imgs//collection_silver3.png" alt="">
                             </a>
                             <a class="collection__list__detail--name text-decoration-none">Bộ trang sức Kim cương Vàng trắng 14K</a>
-                            <span class="price">144,675,000₫</span>
+                            <span class="collection__list__detail--price">144,675,000₫</span>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -151,7 +151,7 @@
                                 <img class="collection__list__detail--img"src="<?=PUBLIC_ASSETS_URL?>assets/imgs//collection_silver4.png" alt="">
                             </a>
                             <a class="collection__list__detail--name text-decoration-none">Bộ trang sức bạc Friendzone Breaker</a>
-                            <span class="price">1,602,000₫</span>
+                            <span class="collection__list__detail--price">1,602,000₫</span>
                         </div>
                     </div>
                 </div>
