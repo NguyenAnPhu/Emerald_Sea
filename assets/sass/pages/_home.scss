@@ -664,157 +664,7 @@
             }
         }
         &__content{
-            // &__new-hot{
-            //     gap: 24px;
-            //     display: grid !important;
-            //     grid-template-areas: 'myArea myArea .' 'myArea myArea .';
-            //     &__img{
-            //         aspect-ratio: 588/559;
-            //         width: 100%;
-            //         transition: transform 0.15s ease-in-out 0.15s;
-            //         &:hover{
-            //             transform: scale(1.05);
-            //         }
-            //         &--1 {
-            //             grid-area: myArea;
-            //         }
-                    
-            //     }
-            //     &__body{
-            //         margin-bottom: 10px;
-            //         &--category{
-            //             font-size: 14px;
-            //             line-height: 150%;
-            //             font-weight: 400;
-            //             padding: 8px;
-            //             color: $color-black-12;
-            //             &:hover{
-            //                 font-weight: 600;
-            //                 cursor: pointer;
-            //             }
-            //         }
-            //         &--name {
-            //             font-size: 24px;
-            //             line-height: 120%;
-            //             font-weight: 400;
-            //             font-family: $font-EB !important;
-            //             color: $color-black-12;
-            //             &:hover{
-            //                 font-weight: 600;
-            //                 cursor: pointer;
-            //             }
-            //         }
-            //         &--description {
-            //             font-size: 16px;
-            //             line-height: 150%;
-            //             font-weight: 400;
-            //             @include webkit-box(3);
-            //         }
-            //     }
-            // }
-            // &__hot{
-            //     gap: 24px;
-
-            //     &__img{
-            //         aspect-ratio: 588/559;
-            //         width: 100%;
-            //         transition: transform 0.15s ease-in-out 0.15s;
-            //         &:hover{
-            //             transform: scale(1.05);
-            //         }
-
-                    
-            //     }
-            //     &__body{
-            //         margin-bottom: 10px;
-            //         &--category{
-            //             font-size: 14px;
-            //             line-height: 150%;
-            //             font-weight: 400;
-            //             padding: 8px;
-            //             color: $color-black-12;
-            //             &:hover{
-            //                 font-weight: 600;
-            //                 cursor: pointer;
-            //             }
-            //         }
-            //         &--name {
-            //             font-size: 24px;
-            //             line-height: 120%;
-            //             font-weight: 400;
-            //             font-family: $font-EB !important;
-            //             color: $color-black-12;
-            //             &:hover{
-            //                 font-weight: 600;
-            //                 cursor: pointer;
-            //             }
-            //         }
-            //         &--description {
-            //             font-size: 16px;
-            //             line-height: 150%;
-            //             font-weight: 400;
-            //             @include webkit-box(3);
-            //         }
-            //     }
-            // }
-            // &__list{
-            //     gap: 24px;
-
-            //     &__item{
-            //         gap: 24px;
-            //         &__img{
-            //             aspect-ratio: 146 / 162;
-            //             height: 100%;
-            //             transition:  transform 0.15s ease-in-out 0.15s;
-            //             &:hover{
-            //                 transform: scale(1.05);
-            //             }
-            //             @include max-width-576{
-            //                 height: auto;
-            //                 max-width: 153px;
-            //             }
-            //         }
-            //         &__body{
-            //             gap: 12px;
-            //             &--category{
-            //                 font-size: 14px;
-            //                 line-height: 150%;
-            //                 font-weight: 400;
-            //                 padding: 8px;
-            //                 color: $color-black-12;
-            //                 &:hover{
-            //                     font-weight: 600;
-            //                     cursor: pointer;
-            //                 }
-            //             }
-            //             &--name {
-            //                 font-size: 24px;
-            //                 line-height: 120%;
-            //                 font-weight: 400;
-            //                 font-family: $font-EB !important;
-            //                 color: $color-black-12;
-            //                 &:hover{
-            //                     font-weight: 600;
-            //                     cursor: pointer;
-            //                 }
-            //                 @include max-width-375{
-            //                     @include webkit-box(2);
-    
-            //                 }
-            //             }
-            //             &--description {
-            //                 font-size: 16px;
-            //                 line-height: 150%;
-            //                 font-weight: 400;
-            //                 @include webkit-box(2);
-    
-            //             }
-    
-            //         }
-            //     }
-
-
-            // }
+        
             &__list{
                 gap: 24px;
                 display: grid;
@@ -828,11 +678,16 @@
                         margin-bottom: 24px;
                     }
                     &__img{
-                        aspect-ratio: 146 / 162;
-                        transition:  transform 0.15s ease-in-out 0.15s;
                         flex-shrink: 0;
-                        &:hover{
-                            transform: scale(1.05);
+                        aspect-ratio: 146 / 162;
+                        width: 20%;
+                        overflow: hidden;
+
+                        img {
+                            transition:  transform 0.15s ease-in-out 0.15s;
+                            &:hover{
+                                transform: scale(1.25);
+                            }
                         }
                         @include max-width-576{
                             height: auto;
@@ -885,6 +740,7 @@
                     grid-area: myArea;
                     display: flex;
                     flex-direction: column;
+                    overflow: hidden;
                     @include max-width-1200{
                         display: flex;
                         flex-direction: row;
@@ -893,13 +749,16 @@
                     &__value {
                         aspect-ratio: 588/559;
                         width: 100%;
-                        transition: transform 0.15s ease-in-out 0.15s;
-                        &:hover{
-                            transform: scale(1.05);
+                        img {
+                            transition: transform 0.15s ease-in-out 0.15s;
+                            &:hover{
+                                transform: scale(1.25);
+                            }
+
                         }
                         @include max-width-1200{
                             aspect-ratio: 146 / 162;
-                            max-width: 153px;
+                            width: 20%;
                         }
                     }
 

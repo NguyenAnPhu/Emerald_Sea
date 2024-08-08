@@ -1241,12 +1241,16 @@ header .header .nav .options i {
   }
 }
 .bg-blog .blog__content__list__item__img {
-  aspect-ratio: 146/162;
-  transition: transform 0.15s ease-in-out 0.15s;
   flex-shrink: 0;
+  aspect-ratio: 146/162;
+  width: 20%;
+  overflow: hidden;
 }
-.bg-blog .blog__content__list__item__img:hover {
-  transform: scale(1.05);
+.bg-blog .blog__content__list__item__img img {
+  transition: transform 0.15s ease-in-out 0.15s;
+}
+.bg-blog .blog__content__list__item__img img:hover {
+  transform: scale(1.25);
 }
 @media (max-width: 575px) {
   .bg-blog .blog__content__list__item__img {
@@ -1310,6 +1314,7 @@ header .header .nav .options i {
   grid-area: myArea;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 @media (max-width: 1199px) {
   .bg-blog .blog__content__list .index-1 {
@@ -1321,15 +1326,17 @@ header .header .nav .options i {
 .bg-blog .blog__content__list .index-1__value {
   aspect-ratio: 588/559;
   width: 100%;
+}
+.bg-blog .blog__content__list .index-1__value img {
   transition: transform 0.15s ease-in-out 0.15s;
 }
-.bg-blog .blog__content__list .index-1__value:hover {
-  transform: scale(1.05);
+.bg-blog .blog__content__list .index-1__value img:hover {
+  transform: scale(1.25);
 }
 @media (max-width: 1199px) {
   .bg-blog .blog__content__list .index-1__value {
     aspect-ratio: 146/162;
-    max-width: 153px;
+    width: 20%;
   }
 }
 .bg-blog .blog a {

@@ -346,7 +346,7 @@
             <button class="featured__content__title--btn border-0 bg-transparent" type="submit">
                 <div class="btn d-flex gap-2">
                     <span>XEM THÊM</span>
-                    <i class="lp-next"></i>
+                    <i class="lp-next d-flex align-items-center"></i>
                 </div>
             </button>
         </div>
@@ -465,22 +465,6 @@
                     </div>
                 <?php endforeach; ?>
             </div>
-            <!-- <div class="whyChoose__content__box-second d-flex flex-column flex-lg-row mx-0 m-lg-auto">
-                <div class="whyChoose__content__box-second__detail d-flex flex-column text-center ">
-                    <div class="whyChoose__content__box-second__detail--icon d-flex">
-                        <i class="lp-pay d-flex justify-content-center align-items-center"></i>
-                    </div>
-                    <span>Thanh toán linh hoạt</span>
-                    <p>Chấp nhận thanh toán nhiều loại thẻ ATM, Visa, Mastercard, JCB.</p>
-                </div>
-                <div class="whyChoose__content__box-second__detail d-flex flex-column text-center ">
-                    <div class="whyChoose__content__box-second__detail--icon d-flex">
-                        <i class="lp-hand d-flex justify-content-center align-items-center"></i>
-                    </div>
-                    <span>Bảo hành trọn đời</span>
-                    <p>Miễn phí bảo hành trọn đời cho tất cả trang sức</p>
-                </div>
-            </div> -->
         </div>
     </div>
 </div>
@@ -489,7 +473,7 @@
         <h2 class="blog__title mb-5">Blog Trang Sức Emerald Sea</h2>
         <div class="blog__content">
             <div class="blog__content__list mx-0">   
-                <?php for ($i=1; $i <= 10 ; $i++) : ?>
+                <?php for ($i=1; $i <= 5 ; $i++) : ?>
                     <div class="blog__content__list__item index-<?php echo $i ?> d-flex mx-0 ">
                     <a class="blog__content__list__item__img index-<?php echo $i ?>__value mx-0">
                         <img class="w-100 h-100" src="<?=PUBLIC_ASSETS_URL?>assets/imgs/blog_img-<?php echo $i ?>.png" alt="">
